@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
+int main(){
     int n1 = 20;
     int n2 = 15;
     int soma = n1 + n2;
