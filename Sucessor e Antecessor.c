@@ -6,6 +6,7 @@ int main()
     printf("Escolha um número: ");
     scanf("%d", &number);
 /*
+- O "printf" serve como um aviso do que se espera ser feito pelo usuário. 
 - A variavél number, está tendo o seu valor alocado pelo comando "scanf", que está lendo o numero digitado pelo usuário, e alocando ele na memória. 
 - O caracter & serve como um referenciado de endereço da memória, ele está dizendo aonde alocar o valor digitado pelo usuário, na memória, e nesse caso está sendo alocado na variavel number.
 */
