@@ -18,7 +18,7 @@ int main()
 
 // O calculo realizado, se dá pela comparação de A e B, e em seguida utilizando o resultado da comparação para calc2 comparando calc1 com c.
 
-    printf("Entre os valores de 'A: %d', 'B: %d' e 'C: %d', o maior valor é: %d", a, b, c, calc2);
+    printf("Entre os valores de |A: %d|B: %d|C: %d|, o maior valor é: %d", a, b, c, calc2);
 
     return 0;
 }
