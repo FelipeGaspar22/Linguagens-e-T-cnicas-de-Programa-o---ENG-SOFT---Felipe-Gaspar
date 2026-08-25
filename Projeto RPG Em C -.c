@@ -2,6 +2,8 @@
 
 int main()
 {
+
+    // Listagem das opções iniciais.
     
     int opcao;
     printf("\n-------------------------");
@@ -14,6 +16,8 @@ int main()
     printf("\nDigite o número da opção que deseja acessar: ");
     scanf("%d", &opcao);
     printf("\n----------------------------------------------");
+
+    // Resultado da escolha de opção para batalha.
     
     if (opcao == 1){
         int opcao_batalha;
@@ -107,3 +111,17 @@ int main()
 
     return 0;
 }
+
+
+// ------ [Anotações] ------
+/*
+
+- Pesquisar sobre classes e sobre struct em C.
+- Tentar desenvolver uma estrutura para um inimigo.
+
+
+
+
+
+
+*/
