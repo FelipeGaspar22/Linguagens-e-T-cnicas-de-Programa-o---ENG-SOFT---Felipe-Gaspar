@@ -39,11 +39,21 @@ int main()
 
 int main()
 {
-    int numbers[10] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-    printf("Insira o Primeiro digito do seu Telefone com DD: ");
-    scanf("%d%d %d%d%d%d-%d%d%d%d", &numbers[1], &numbers[2], &numbers[3], &numbers[4], &numbers[5], &numbers[6], &numbers[7], &numbers[8], &numbers[9], &numbers[10]);
+    int numbers[10];
+    printf("Insira o seu Telefone: ");
+    scanf("%d%d %d%d%d%d%d%d%d%d", 
+    &numbers[0], 
+    &numbers[1], 
+    &numbers[2], 
+    &numbers[3], 
+    &numbers[4], 
+    &numbers[5], 
+    &numbers[6], 
+    &numbers[7], 
+    &numbers[8], 
+    &numbers[9]);
 
- printf("O seu telefone é: (%d%d) %d%d%d%d-%d%d%d%d", numbers[1], numbers[2], numbers[3], numbers[4], numbers[5], numbers[6], numbers[7], numbers[8], numbers[9], numbers[10]);
+ printf("O seu telefone é: %d%d %d%d%d%d%d%d%d%d", numbers[0], numbers[1], numbers[2], numbers[3], numbers[4], numbers[5], numbers[6], numbers[7], numbers[8], numbers[9]);
 
     return 0;
 }
